@@ -63,4 +63,4 @@ spec:
 ![Снимок 4](https://github.com/Edan-ib/Kubernetes-lab2/blob/main/Screenshot%20at%20Nov%2005%2019-28-49.png)
 
 # Видео с обзором созданного кластера
-[Ссылка на видео]("Ссылка на видео с обзором")
+[Ссылка на видео](https://github.com/Edan-ib/Kubernetes-lab2/blob/main/IMG_0282.MOV)
