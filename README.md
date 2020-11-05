@@ -3,7 +3,7 @@
 # Ходырева Ирина Альбертовна, группа 3mac2001
 # Целью лабораторной работы является знакомство с кластерной архитектурой на примере Kubernetes, а также деплоем приложения в кластер.
 
-
+# Манифест deployment.yaml  
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
@@ -38,7 +38,7 @@ spec:
         - postgres.local
  ```
  
- ### Манифест service.yaml
+ # Манифест service.yaml
  ```yaml
 apiVersion: v1
 kind: Service
