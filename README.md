@@ -4,8 +4,7 @@
 # Целью лабораторной работы является знакомство с кластерной архитектурой на примере Kubernetes, а также деплоем приложения в кластер.
 
 
-# Манифест deployment.yaml
-
+```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -37,24 +36,25 @@ spec:
       - ip: "192.168.49.1" # The IP of your VM
         hostnames:
         - postgres.local
-        
-      
-# Манифест service.yaml
-
+ ```
+ 
+ ### Манифест service.yaml
+ ```yaml
 apiVersion: v1
 kind: Service
 metadata:
- name: my-service
+  name: my-service
 spec:
- type: NodePort
- ports:
-   - nodePort: 31317
-     port: 8080
-     protocol: TCP
-     targetPort: 8080
- selector:
-   app: my-app
-   
+  type: NodePort
+  ports:
+    - nodePort: 31317
+      port: 8080
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: my-app
+ 
+ ```
 
 # Скриншот шага 3.3
 
