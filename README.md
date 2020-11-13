@@ -61,6 +61,7 @@ spec:
 ![Снимок 3](https://github.com/Edan-ib/Kubernetes-lab2/blob/main/Screenshot%20at%20Nov%2013%2019-10-16.png)
 # Скриншот шага 3.5
 ![Снимок 4]()
+![Снимок 5](https://github.com/Edan-ib/Kubernetes-lab2/blob/main/Screenshot%20at%20Nov%2013%2019-33-28.png)
 
 # Видео с обзором созданного кластера
 [Ссылка на видео]()
